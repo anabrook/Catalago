@@ -15,10 +15,12 @@ const colors = {
 
 export const theme = extendTheme({ colors });
 
-export function Providers({ children }: { children: React.ReactNode }) {
+function Providers({ children }: { children: React.ReactNode }) {
   return (
     <CacheProvider>
       <ChakraProvider theme={theme}>{children}</ChakraProvider>
     </CacheProvider>
   );
 }
+
+export default Providers;

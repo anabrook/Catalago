@@ -8,7 +8,7 @@ import { AppProps } from "next/app";
 import Footer from "components/Footer";
 import Head from "next/head";
 import Header from "components/Header";
-import { Providers } from "./providers";
+import Providers from "./providers";
 import { ReactQueryDevtools } from "react-query/devtools";
 import { useMemo } from "react";
 
